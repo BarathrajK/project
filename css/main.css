@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar{
+    background-color: #fff;
+    padding: 5px 10px 0 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px ; 
+    line-height: 55px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.img{
+    display: flex;
+}
+.card-body1{
+    position: relative;
+    padding: 18px 0px 0px 71px;
+    min-height: 76px;
+}
+.card-body1 img{
+    position: absolute;
+    left: 0px;
+    right: 10px;
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    top: 12px;
+}
+.card-text {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.date-post {
+    font-size: 14px;
+    color: #3c3c3c;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+ul li a i{
+    font-size: 20px;
+    padding: 5px;
+}
+.side-btn .btn1{
+    background: blueviolet;
+    padding: 1px 28px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+
+}
+.btn2{
+    border: solid 2px blueviolet;
+    padding: 1px 28px;
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: #fff;
+}
+.side-btn{
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+}
+.side-btn1{
+    margin-top: 10px;
+    padding-left: 28px;
+}
+.side-btn1 button{
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    background: rgb(225, 221, 221);
+    padding: 1px 15px;
+}
+.navbar1{
+    background: #fff;
+}
+.bottom{
+    background-color: rgba(81, 25, 133, 0.984);
+    margin-top: 20px;
+    padding: 25px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.box{
+    background-color: #ddd;
+    display: inline;
+    padding: 10px 20px;
+    margin-left: 26px;
+    border-radius: 10px;
+}
+.cad img{
+border-radius: 50px;
+width: 70px;
+transform: scale(0.9);
+}
+.cad{
+    border:  none;
+    text-align: center;
+}
+.head1{
+    padding-top: 20px;
+    margin-bottom: 21px;
+}
+.head1 h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.box1{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+}
+table{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 2px 15px;
+    margin-top: 22px;
+}
+.ico i{
+    background-color:rgba(188, 165, 165, 0.856);
+    padding: 1px 5px;
+    border-radius: 5px;
+    color: blue;
+}
+.text{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+}
